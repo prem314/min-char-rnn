@@ -14,7 +14,7 @@ This simple RNN model contain 3 matrices:
 * Wxh: V * H, input layer to hidden layer
 * Why: V * H, hidden layer to output layer
 
-In the output layer, softmax is used to compute the character probability distribution, then we could sample the next character according previous input.
+In the output layer, softmax (exponentiate and normalize a vector elementwise(see personal notes)) is used to compute the character probability distribution, then we could sample the next character according previous input.
 
 ## RNN Equation
 **update hidden state**
