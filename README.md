@@ -7,6 +7,9 @@ Reference page [The Unreasonable Effectiveness of Recurrent Neural Networks](htt
 
 Very pedagogical and simple RNN.
 
+### Questions:
+  - What about the back propagation? How does this model learn? 
+
 ## RNN/LSTM
 Actually this model use the simple RNN, not using LSTM.
 This model use the characters as input, then we use a one-hot vector as input X, the dimension of X is the size of characters in input file.
