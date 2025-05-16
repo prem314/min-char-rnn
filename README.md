@@ -3,6 +3,10 @@ Minimal character-level language model with a Vanilla Recurrent Neural Network, 
 
 Reference page [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
+## My notes:
+
+Very pedagogical and simple RNN.
+
 ## RNN/LSTM
 Actually this model use the simple RNN, not using LSTM.
 This model use the characters as input, then we use a one-hot vector as input X, the dimension of X is the size of characters in input file.
